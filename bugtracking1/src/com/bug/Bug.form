@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.bug.Bug">
+  <grid id="27dc6" binding="bugPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="4" vgap="4">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-2565928"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1d266" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8487558"/>
+          <enabled value="true"/>
+          <font name="Consolas" size="22" style="1"/>
+          <foreground color="-6470596"/>
+          <text value="BUG TRACKER SYSTEM"/>
+        </properties>
+      </component>
+      <grid id="6eeb8" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="342" height="258"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2565928"/>
+          <enabled value="false"/>
+          <foreground color="-2565928"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="60d4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <enabled value="true"/>
+              <foreground color="-6470596"/>
+              <text value="BUG ID :"/>
+            </properties>
+          </component>
+          <component id="1761f" class="javax.swing.JTextField" binding="idData">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <foreground color="-14935012"/>
+            </properties>
+          </component>
+          <component id="37718" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2565928"/>
+              <foreground color="-6470596"/>
+              <text value="PRODUCT :"/>
+            </properties>
+          </component>
+          <component id="ad4c5" class="javax.swing.JLabel" binding="ENVIRONMENT">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <foreground color="-6470596"/>
+              <text value="ENVIRONMENT :"/>
+            </properties>
+          </component>
+          <component id="6f149" class="javax.swing.JComboBox" binding="product">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <editable value="false"/>
+              <foreground color="-14935012"/>
+              <model>
+                <item value="JavaEdit"/>
+                <item value="SoundRx"/>
+                <item value="WordSolution"/>
+              </model>
+            </properties>
+          </component>
+          <component id="7cb08" class="javax.swing.JComboBox" binding="environment">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <enabled value="true"/>
+              <foreground color="-14935012"/>
+              <model>
+                <item value="Windows 7"/>
+                <item value="Linux"/>
+                <item value="Ubuntu"/>
+              </model>
+            </properties>
+          </component>
+          <component id="5b11f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <foreground color="-6470596"/>
+              <text value="TYPE : "/>
+            </properties>
+          </component>
+          <component id="3def5" class="javax.swing.JComboBox" binding="type">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <foreground color="-14935012"/>
+              <model>
+                <item value="GUI"/>
+                <item value="Server"/>
+                <item value="Database"/>
+                <item value="Network"/>
+              </model>
+            </properties>
+          </component>
+          <component id="78808" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <foreground color="-6470596"/>
+              <text value="DESCRIPTION :"/>
+            </properties>
+          </component>
+          <component id="eb162" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2565928"/>
+              <foreground color="-6470596"/>
+              <text value="STATUS : "/>
+            </properties>
+          </component>
+          <component id="bbae2" class="javax.swing.JComboBox" binding="status">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <enabled value="true"/>
+              <foreground color="-14935012"/>
+              <model>
+                <item value="NEW"/>
+                <item value="OLD"/>
+              </model>
+            </properties>
+          </component>
+          <component id="a822c" class="javax.swing.JButton" binding="ADDRECORDButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2565928"/>
+              <enabled value="true"/>
+              <foreground color="-8932622"/>
+              <hideActionText value="true"/>
+              <text value="ADD RECORD"/>
+            </properties>
+          </component>
+          <component id="70a28" class="javax.swing.JButton" binding="UPDATERECORDButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2565928"/>
+              <enabled value="true"/>
+              <foreground color="-7619722"/>
+              <text value="UPDATE RECORD"/>
+            </properties>
+          </component>
+          <component id="326b7" class="javax.swing.JTextArea" binding="description">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855310"/>
+              <enabled value="true"/>
+              <foreground color="-14935012"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="cd4bd" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2565928"/>
+          <enabled value="true"/>
+          <foreground color="-855310"/>
+          <requestFocusEnabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="17bf0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2565928"/>
+              <enabled value="true"/>
+              <focusCycleRoot value="false"/>
+              <foreground color="-2565928"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="be74b" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-855310"/>
+                  <foreground color="-14935012"/>
+                  <opaque value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
